@@ -1,0 +1,54 @@
+{
+  "name": "gig deployment test",
+  "gasSchedule": "dummy",
+  "steps": [
+    {
+      "step": "setState",
+      "accounts": {
+        "address:owner": {
+          "nonce": "0",
+          "balance": "100"
+        }
+      },
+      "newAddresses": [
+        {
+          "creatorAddress": "address:owner",
+          "creatorNonce": "0",
+          "newAddress": "address:the_gig_contract"
+        }
+      ]
+    },
+    {
+      "step": "scDeploy",
+      "tx": {
+        "from": "address:owner",
+        "contractCode": "file:../output/gig.wasm",
+        "value": "0",
+        "gasLimit": "1,000,000",
+        "gasPrice": "0"
+      },
+      "expect": {
+        "status": "0",
+        "gas": "*",
+        "refund": "*"
+      }
+    },
+    {
+      "step": "checkState",
+      "accounts": {
+        "address:owner": {
+          "nonce": "1",
+          "balance": "100"
+        },
+        "address:the_gig_contract": {
+          "nonce": "0",
+          "balance": "0",
+          "storage": {
+            "''owner": "address:owner"
+          },
+          "code": "file:../output/gig.wasm"
+        }
+      }
+    }
+  ]
+}

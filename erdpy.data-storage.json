@@ -1,0 +1,15 @@
+{
+    "*": {
+        "address-devnet": "erd1qqqqqqqqqqqqqpgqm6cgqd0zd8dljyp2tvxl2f6q8udg4sc6d8ss5ustt4",
+        "deployTransaction-devnet": "d10c9b7cad503a3949978edfacc2349bb13a4928d3642df8c75d96ef36c5e7ef",
+        "address-testnet": "erd1qqqqqqqqqqqqqpgqy4t8kut4dtjf0d8fekghd9njczacn4eqd8ss3r3xnz",
+        "deployTransaction-testnet": "a31e0fbc323809a3437c7300b16ed255cf75acc535ea4e5f0385ff72bbb29124",
+        "seller-address": "erd1spyavw0956vq68xj8y4tenjpq2wd5a9p2c6j8gsz7ztyrnpxrruqzu66jx",
+        "buyer-address": "",
+        "seller-address-hex": "0x8049d639e5a6980d1cd2392abcce41029cda74a1563523a202f09641cc2618f8",
+        "seller-address-bech32": "erd1spyavw0956vq68xj8y4tenjpq2wd5a9p2c6j8gsz7ztyrnpxrruqzu66jx",
+        "buyer-address-hex": "0xb2a11555ce521e4944e09ab17549d85b487dcd26c84b5017a39e31a3670889ba",
+        "buyer-address-bech32": "erd1k2s324ww2g0yj38qn2ch2jwctdy8mnfxep94q9arncc6xecg3xaq6mjse8",
+        "owner-address": ""
+    }
+}
