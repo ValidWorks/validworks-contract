@@ -25,7 +25,7 @@ deploy() {
 }
 
 GIG_ID="1"
-DEADLINE="600"
+DEADLINE="50"
 PRICE="10000000000"
 PAYMENT="12000000000"
 
@@ -73,4 +73,12 @@ seller_claim() {
 
 buyer_dispute() {
   erdpy --verbose contract call ${CONTRACT_ADDRESS} --recall-nonce --pem=${BUYER_PEM} --gas-limit=50000000 --function="dispute" --arguments ${GIG_ID} ${SELLER_ADDRESS_HEX} --send --proxy=${PROXY} --chain=T
+}
+
+seller_unlist() {
+  erdpy --verbose contract call ${CONTRACT_ADDRESS} --recall-nonce --pem=${SELLER_PEM} --gas-limit=50000000 --function="unlist" --arguments ${GIG_ID} --send --proxy=${PROXY} --chain=T
+}
+
+buyer_refund() {
+  erdpy --verbose contract call ${CONTRACT_ADDRESS} --recall-nonce --pem=${BUYER_PEM} --gas-limit=50000000 --function="refund" --arguments ${GIG_ID} ${SELLER_ADDRESS_HEX} --send --proxy=${PROXY} --chain=T
 }
