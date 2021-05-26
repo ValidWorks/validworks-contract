@@ -72,7 +72,7 @@ By enforcing a 20% deposit on top of the listing price, buyers are disincentivis
 <!-- WALKTRHOUGH -->
 ## Walkthrough
 
-There are 4 stages to a Gig, namely Open, InOrder, Delivered and DeliveryAccepted. At every stage, both sellers and buyers will only certain number of actions available to them. Calling functions not available at a particular stage will result in failed transactions.
+There are 4 stages to a Gig, namely Open, InOrder, Delivered and DeliveryAccepted. At every stage, both sellers and buyers will only have certain number of actions available to them. Calling functions not available at a particular stage will result in failed transactions.
 
 ### Open
 
