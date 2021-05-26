@@ -22,7 +22,7 @@
 <br />
 <p align="center">
   <a href="https://cryptologos.cc/logos/elrond-egld-egld-logo.png">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://cryptologos.cc/logos/elrond-egld-egld-logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">ValidWorks Smart Contracte</h3>
