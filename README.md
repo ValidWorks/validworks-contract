@@ -107,7 +107,7 @@ Please refer to interaction/testnet.snippets.sh for demo using erdpy. The snippe
 <!-- USAGE -->
 ## Usage
 
-To use our smart contract in your frontend, you will need erdjs. Import the functions you'll need from the ErdJsUtils file.
+To use our smart contract in your frontend, you will need erdjs. Import the functions you'll need from the ErdjsUtils file.
 
 Note the current implementation requires Ledger hardware wallet although repurposing the same code base for keystore login should only be a matter of changing a provider.
 
@@ -131,6 +131,6 @@ Note the current implementation requires Ledger hardware wallet although repurpo
       });
 ```
 
-Here buyerDispute is called from ErdJsUtils which returns a Transaction object (refer to erdjs docs if needed) after the the contract call has been executed on the blockchain. All the helper functions are asynchronous so you can define what happens immediately after the execution.
+Here buyerDispute is called from ErdjsUtils which returns a Transaction object (refer to erdjs docs if needed) after the the contract call has been executed on the blockchain. All the helper functions are asynchronous so you can define what happens immediately after the execution.
 
 
