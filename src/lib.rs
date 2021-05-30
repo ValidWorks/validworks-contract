@@ -197,8 +197,8 @@ pub trait Gig {
 
 	/* 	
 	BUYER Refund if deadline not met
-	@param seller_addr
 	@param gig_id
+	@param seller_addr
 	@condition can only be called when InOrder
 	*/
 	#[endpoint]
@@ -274,6 +274,7 @@ pub trait Gig {
 	/* 	
 	BUYER Accept and release payment
 	@param gig_id
+	@param seller_address
 	@condition must be before deadline_to_accept
 	*/
 	#[endpoint]

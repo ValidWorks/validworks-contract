@@ -1,18 +1,18 @@
 {
     "emitted_tx": {
         "tx": {
-            "nonce": 102,
-            "value": "12000000000",
-            "receiver": "erd1qqqqqqqqqqqqqpgqqr37qsc5lyue3ketjjh90jnwwsaypx9md8ss4w9n7k",
+            "nonce": 0,
+            "value": "2400000000000000000",
+            "receiver": "erd1qqqqqqqqqqqqqpgqajh5d70yq8nylfqcxjvw3unejqwrgfnsd8ssa24hs0",
             "sender": "erd1k2s324ww2g0yj38qn2ch2jwctdy8mnfxep94q9arncc6xecg3xaq6mjse8",
             "gasPrice": 1000000000,
             "gasLimit": 50000000,
-            "data": "b3JkZXJAMDFAODA0OUQ2MzlFNUE2OTgwRDFDRDIzOTJBQkNDRTQxMDI5Q0RBNzRBMTU2MzUyM0EyMDJGMDk2NDFDQzI2MThGOA==",
+            "data": "b3JkZXJAMDJAODA0OUQ2MzlFNUE2OTgwRDFDRDIzOTJBQkNDRTQxMDI5Q0RBNzRBMTU2MzUyM0EyMDJGMDk2NDFDQzI2MThGOA==",
             "chainID": "T",
             "version": 1,
-            "signature": "57228bf4778cd22422f13fe21f15bd71b1a83727ef38681fbf54d9f8db65013fed04f825aa54605540894e6f859d63b3540484bb000092dcb2cd1e1523bd7c0f"
+            "signature": "f67b4bffb9eb93b00f729afa6c4ce5f27d4a39f1097ed4d9656ae749fd08582ad8da80baf2e9a9002f7ce804a3cc80f151e75c4e66aee4c949d81123bc57020a"
         },
-        "hash": "fe60481d644036898e25b0769bc27539ec637f471236f2b9f2e8c4438056092b",
-        "data": "order@01@8049D639E5A6980D1CD2392ABCCE41029CDA74A1563523A202F09641CC2618F8"
+        "hash": "89370d131756813aa0bd02b24cfb7f715b21aa3cdfd80d7637035e98c45c0375",
+        "data": "order@02@8049D639E5A6980D1CD2392ABCCE41029CDA74A1563523A202F09641CC2618F8"
     }
 }
