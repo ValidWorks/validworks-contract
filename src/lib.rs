@@ -17,7 +17,7 @@ const TOTAL_NUMERATOR: u32 = 12;
 const DENOMINATOR: u32 = 10;
 
 // Change this to adjust time to accept delivery
-const TIME_TO_ACCEPT_DELIVERY: u64 = 50; // nonce equiv of 5 minutes
+const TIME_TO_ACCEPT_DELIVERY: u64 = 43200; // nonce equiv of 3 days
 
 // Smart contract to facillitate
 #[elrond_wasm_derive::contract(GigImpl)]
