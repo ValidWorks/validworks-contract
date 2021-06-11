@@ -1,18 +1,18 @@
 {
     "emitted_tx": {
         "tx": {
-            "nonce": 6,
+            "nonce": 2,
             "value": "0",
-            "receiver": "erd1qqqqqqqqqqqqqpgqajh5d70yq8nylfqcxjvw3unejqwrgfnsd8ssa24hs0",
+            "receiver": "erd1qqqqqqqqqqqqqpgqc4ch57e6zjxzzj7lsazfzt9hh2dtf9vpd8ssp6l5ck",
             "sender": "erd1spyavw0956vq68xj8y4tenjpq2wd5a9p2c6j8gsz7ztyrnpxrruqzu66jx",
             "gasPrice": 1000000000,
             "gasLimit": 50000000,
             "data": "bGlzdEAwMkAzMkAxYmMxNmQ2NzRlYzgwMDAw",
             "chainID": "T",
             "version": 1,
-            "signature": "be1a417526765ec156182c8bcefcd4b98fe0dfcc3fa28587d6632d0f4361fffccbcf680f18ec5f7540c560db79e0a12838d73fb6853e10d38936154af40cb20d"
+            "signature": "d649472ebdf893705894cdc0bd315b4d15e11b1784fe0ed255f34d975d84787ce5ecc7f9721d320e724883ff0e34986c455ba2038b4e1315cc10b967e0b4810b"
         },
-        "hash": "31227ffa15bdc6544306a534fed6bedf82b1322f6167436737760b5988260a24",
+        "hash": "ee02fef8186b1928f05c5c3402966cf85a13219cf513713b004a78661b7a305c",
         "data": "list@02@32@1bc16d674ec80000"
     }
 }

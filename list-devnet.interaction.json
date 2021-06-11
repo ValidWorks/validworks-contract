@@ -1,0 +1,18 @@
+{
+    "emitted_tx": {
+        "tx": {
+            "nonce": 23,
+            "value": "0",
+            "receiver": "erd1qqqqqqqqqqqqqpgq8k3k3drmz9q6adf9lm9p78v4z6ll8ecdd8ss0hgr33",
+            "sender": "erd1spyavw0956vq68xj8y4tenjpq2wd5a9p2c6j8gsz7ztyrnpxrruqzu66jx",
+            "gasPrice": 1000000000,
+            "gasLimit": 50000000,
+            "data": "bGlzdEAwMkAzMkAxYmMxNmQ2NzRlYzgwMDAw",
+            "chainID": "D",
+            "version": 1,
+            "signature": "9ed7a9fcab720d4edbe8c1860160cbc2be0b78ea8ed0a0eae8fd0dc41863086373fb975cd8a1f8e2fae3e4764ad613a0d5ea2ce34bb3b4f65fcbeed63c03640a"
+        },
+        "hash": "5b96375f719a275e6223861a5f4dc3aa84975d8964367cbf7c62766efe7ba5d0",
+        "data": "list@02@32@1bc16d674ec80000"
+    }
+}

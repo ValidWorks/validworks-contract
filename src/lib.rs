@@ -257,7 +257,7 @@ pub trait Gig {
 		}
 
 		// Verify if buyer who paid for this gig
-		if self.has_paid_for_gig(&buyer_addr, &seller_addr, &gig_id) {
+		if !!!self.not_paid_for_gig(&buyer_addr, &seller_addr, &gig_id) {
 			// Send back payment minus deposit
 			self.send().direct_egld(&buyer_addr, &this_listing.price, b"refunded price of gig; deposit withheld");
 			// Change status to Open
@@ -324,7 +324,7 @@ pub trait Gig {
 
 	#[view]
     #[storage_is_empty("payment_for_gig")]
-    fn has_paid_for_gig(&self, buyer_address: &Address, seller_addr: &Address, gig_id: &u64) -> bool;
+    fn not_paid_for_gig(&self, buyer_address: &Address, seller_addr: &Address, gig_id: &u64) -> bool;
 
     #[storage_clear("payment_for_gig")]
     fn payment_ok(&self, buyer_addr: &Address, seller_addr: &Address, gig_id: &u64);

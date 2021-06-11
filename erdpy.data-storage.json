@@ -1,9 +1,9 @@
 {
     "*": {
-        "address-devnet": "erd1qqqqqqqqqqqqqpgqm6cgqd0zd8dljyp2tvxl2f6q8udg4sc6d8ss5ustt4",
-        "deployTransaction-devnet": "d10c9b7cad503a3949978edfacc2349bb13a4928d3642df8c75d96ef36c5e7ef",
-        "address-testnet": "erd1qqqqqqqqqqqqqpgqajh5d70yq8nylfqcxjvw3unejqwrgfnsd8ssa24hs0",
-        "deployTransaction-testnet": "fe67a5a1f9a0811a1719a0a998595363c866be041d7e6949205f3d69f60217af",
+        "address-devnet": "erd1qqqqqqqqqqqqqpgq8k3k3drmz9q6adf9lm9p78v4z6ll8ecdd8ss0hgr33",
+        "deployTransaction-devnet": "b9410f7f7a27a5201aa6704c0f39e32790e353cc04d882768e470a20c177d647",
+        "address-testnet": "erd1qqqqqqqqqqqqqpgqc4ch57e6zjxzzj7lsazfzt9hh2dtf9vpd8ssp6l5ck",
+        "deployTransaction-testnet": "90d838ad73be2cf45605cc3033d3313b8af2ef80b9b3921d4c56295199eb692e",
         "seller-address": "erd1spyavw0956vq68xj8y4tenjpq2wd5a9p2c6j8gsz7ztyrnpxrruqzu66jx",
         "buyer-address": "",
         "seller-address-hex": "0x8049d639e5a6980d1cd2392abcce41029cda74a1563523a202f09641cc2618f8",
