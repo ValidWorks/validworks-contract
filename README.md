@@ -108,6 +108,8 @@ At this stage, the seller can CLAIM payment in the price of the Gig and the Gig 
 
 Please refer to interaction/testnet.snippets.sh for demo using erdpy. The snippets have been set up to use 2 different addresses for seller and buyer respectively. 
 
+Alternatively you may watch our smart contract in action in our dapp demo [here](https://www.youtube.com/watch?v=RZ0Lmg_0HBY).
+
 
 <!-- USAGE -->
 ## Usage
