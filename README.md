@@ -74,6 +74,10 @@ By enforcing a 20% deposit on top of the listing price, buyers are disincentivis
 
 There are 4 stages to a Gig, namely Open, InOrder, Delivered and DeliveryAccepted. At every stage, both sellers and buyers will only have certain number of actions available to them. Calling functions not available at a particular stage will result in failed transactions.
 
+<div align='center'>
+ <img src="validworks_flow.png">
+</div>
+
 ### Open
 
 A seller will LIST the Gig by providing an ID (for tracking orders), price and delivery time. After listing, the Gig will be in the Open stage. At this stage, the seller will only be able to UNLIST the Gig and potential buyers will be able to ORDER.
@@ -132,5 +136,13 @@ Note the current implementation requires Ledger hardware wallet although repurpo
 ```
 
 Here buyerDispute is called from ErdjsUtils which returns a Transaction object (refer to erdjs docs if needed) after the contract call has been executed on the blockchain. All the helper functions are asynchronous so you can define what happens immediately after the execution.
+
+<!-- DONATIONS -->
+## Donate
+
+If this repo has been helpful/insight to you or you just want to show some love to fellow BUIDLers, please do consider donating to Maiar herotag @gordonlim If you do, leave a note so we know you came from here!
+
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.publish0x.com%2Fevoow-its-about-all%2Fmaiar-app-xjmpoyx&psig=AOvVaw3FigLM0pbjt4LW5j4OhrY9&ust=1625637771552000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCID-vePizfECFQAAAAAdAAAAABAI" alt="maiar logo">
+
 
 
