@@ -21,8 +21,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
+  <img src ="validworks_logo.jpeg" alt="Logo" width="80" height="80">
   <a href="https://cryptologos.cc/logos/elrond-egld-egld-logo.png">
-    <img src="https://static1.s123-cdn-static-a.com/uploads/1946798/800_5d190780bf2cf.png" alt="Logo" width="80" height="80">
+    <img src="https://static1.s123-cdn-static-a.com/uploads/1946798/800_5d190780bf2cf.png" alt="elrond logo" width="80" height="80">
   </a>
 
   <h3 align="center">ValidWorks Smart Contracte</h3>
