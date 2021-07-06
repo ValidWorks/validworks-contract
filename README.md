@@ -131,6 +131,6 @@ Note the current implementation requires Ledger hardware wallet although repurpo
       });
 ```
 
-Here buyerDispute is called from ErdjsUtils which returns a Transaction object (refer to erdjs docs if needed) after the the contract call has been executed on the blockchain. All the helper functions are asynchronous so you can define what happens immediately after the execution.
+Here buyerDispute is called from ErdjsUtils which returns a Transaction object (refer to erdjs docs if needed) after the contract call has been executed on the blockchain. All the helper functions are asynchronous so you can define what happens immediately after the execution.
 
 
