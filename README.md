@@ -142,7 +142,7 @@ Here buyerDispute is called from ErdjsUtils which returns a Transaction object (
 
 If this repo has been helpful/insight to you or you just want to show some love to fellow BUIDLers, please do consider donating to Maiar herotag @gordonlim If you do, leave a note so we know you came from here!
 
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.publish0x.com%2Fevoow-its-about-all%2Fmaiar-app-xjmpoyx&psig=AOvVaw3FigLM0pbjt4LW5j4OhrY9&ust=1625637771552000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCID-vePizfECFQAAAAAdAAAAABAI" alt="maiar logo">
+<img src="https://cdn.publish0x.com/prod/fs/images/24674aca9faa56f00146664beebdc87877f3b1c068c440845ec60c77f0bb6152.png" alt="maiar logo" height="90" width ="160">
 
 
 
