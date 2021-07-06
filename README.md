@@ -82,7 +82,7 @@ The smart contract will check if the buyer has made payment in the amount of the
 
 ### InOrder
 
-When a buyer has placed an order, the Gig was go into the InOrder stage. The deadline for delivery will be set based on the delivery time promised by the seller in the listing. 
+When a buyer has placed an order, the Gig will go into the InOrder stage. The deadline for delivery will be set based on the delivery time promised by the seller in the listing. 
 
 At this stage, the seller may DELIVER. After the deadline has been past and the seller has not delivered, the buyer may REFUND and get a full refund inclusive of deposit.
 
